@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "type": "title",
+        "title": "My music",
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "My Artists",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://myartists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Albums",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://myalbums"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Tracks",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://mytracks"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Playlists",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://myplaylists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Top Artists",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://topartists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Top Tracks",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://toptracks"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "title": "Discover",
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "Categories",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://categories"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "New releases",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://newreleases"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Featured playlists",
+            "icon": "fa fa-folder-open-o",
+            "uri": "spotify://featured-playlists"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "/"
+    }
+  }
+}

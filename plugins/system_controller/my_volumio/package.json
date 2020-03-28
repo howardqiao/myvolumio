@@ -1,0 +1,27 @@
+{
+  "name": "my_volumio",
+  "version": "1.0.0",
+  "description": "send your data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Volumio TEAM",
+  "license": "",
+  "volumio_info": {
+    "plugin_type": "system_controller",
+    "prettyName": "MyVolumio",
+    "boot_priority": 1
+  },
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "fs-extra": "^5.0.0",
+    "kew": "^0.7.0",
+    "socket.io-client": "^2.1.0",
+    "unirest": "^0.5.1",
+    "v-conf": "^1.4.0",
+    "http-proxy": "^1.17.0",
+    "mqtt": "^2.18.8",
+    "require-from-string": "^2.0.2"
+  }
+}

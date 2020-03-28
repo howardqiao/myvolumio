@@ -1,0 +1,8 @@
+{
+  "cards": [
+       {"id": "08bb:2904", "prettyname": "Pro-Ject USB Link", "albumart": "tticon.png","type": "usb", "ignore": false},
+    {"id": "0d8c:0014", "prettyname": "C-Media USB", "type": "usb", "ignore": false},
+    {"id": "2772:0225", "prettyname": "Phono Box DS2 USB", "albumart": "tticon.png","type": "usb", "ignore": false},
+    {"id": "sndrpihifiberry", "prettyname": "HiFiBerry ADC", "type": "i2s", "ignore": false}
+  ]
+}

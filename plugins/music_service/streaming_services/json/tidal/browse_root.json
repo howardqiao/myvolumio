@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "type": "title",
+        "title": "TRANSLATE.TIDAL.MENU_TIDAL",
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "New",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalnew.png",
+            "uri": "tidal://new"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Tidal rising",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalrising.png",
+            "uri": "tidal://rising"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Genres & Moods",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalgenres.png",
+            "uri": "tidal://genresmoods"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "title": "TRANSLATE.TIDAL.MENU_MYMUSIC",
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "Albums",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalalbum.png",
+            "uri": "tidal://mymusic/albums/az"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Artists",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalartist.png",
+            "uri": "tidal://mymusic/artists/az"
+          },{
+            "type": "item-no-menu",
+            "title": "Playlists",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalplaylist.png",
+            "uri": "tidal://mymusic/playlists/az"
+          },{
+            "type": "item-no-menu",
+            "title": "Tracks",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://mymusic/tracks/az"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fbconf": {
+    "apiKey": "AIzaSyAcZzzO2ALWG7zigJ7SGZMwSpl5kIE0wzY",
+    "authDomain": "myvolumio-dev.firebaseapp.com",
+    "databaseURL": "https://myvolumio-dev.firebaseio.com",
+    "storageBucket": "myvolumio-dev",
+    "endpointDomain":"myvolumio-dev.appspot.com"
+  },
+  "presenceEndpoint":"http://presence-development.myvolumio.org",
+  "endpointDomain":"https://functions-dev.volumio.cloud",
+  "databaseRestUrl":"https://database-dev.volumio.cloud"
+}

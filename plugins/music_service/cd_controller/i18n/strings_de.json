@@ -1,0 +1,20 @@
+{
+  "PLAY":"Wiedergabe",
+  "RIP":"Auf Festplatte importieren",
+  "EJECT":"Auswerfen",
+  "CD_RIP":"CD Rip",
+  "CD_RIP_STARTED":"CD wird importiert. Dies kann bis zu 30 Minuten dauern. Du wirst benachrichtigt, sobald der Vorgang abgeschlossen ist",
+  "CD_RIP_CLOSE":"Schließen",
+  "CD_RIP_ERROR":"Fehler beim Auslesen der CD.",
+  "CD_RIP_ERROR_MESSAGE":"Auslesen der CD konnte nicht gestartet werden ",
+  "CD_RIP_SUCCESS":"CD wurde erfolgreich importiert",
+  "RIP_MESSAGE":"Prüfe die abgerufenen Informationen der CD und wähle deine bevorzugten Speicherort für die Musikdateien. Klicke anschließend auf Auslesen, um die Titel der CD zu importieren. Du wirst benachrichtigt, sobald der Vorgang abgeschlossen ist",
+  "RIP_LOCATION_MESSAGE_NO_SPACE":"Für den Auslesevorgang ist zu wenig Speicher vorhanden. Verbinde ein anderes Laufwerk zum Speichern deiner Musik",
+  "RIP_LOCATION_MESSAGE":"Ziellaufwerk",
+  "TARGET_HARD_DRIVE_NOT_FOUND":"Ziellaufwerk nicht gefunden",
+  "RIP_FAILED":"Kopiervorgang fehlgeschlagen",
+  "RIP_IN_PROGRESS_MESSAGE":"Die CD wird derzeit kopiert. Für die Dauer des Vorgangs kann auf sie nicht zugegriffen werden",
+  "UNKNOWN_ARTIST":"Unbekannter Interpret",
+  "UNKNOWN_ALBUM":"Unbekanntes Album",
+  "UNKNOWN_GENRE":"Unbekanntes Genre"
+}

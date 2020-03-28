@@ -1,0 +1,6 @@
+{
+    "COMMON": {
+        "MYVOLUMIO_DISABLED_LABEL": "Servizi di Streaming",
+        "MYVOLUMIO_DISABLED_TEXT": "Questa funzione richiede MyVolumio Virtuoso o Superstar attivati su questo dispositivo"
+    }
+}

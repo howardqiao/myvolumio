@@ -1,0 +1,64 @@
+{
+  "page": {
+    "label": "TRANSLATE.HIRES_CONFIGURATION"
+  },
+  "sections": [
+    {
+      "id": "section_account",
+      "element": "section",
+      "label": "HIGHRESAUDIO",
+      "hidden": false,
+      "image": "music_service/hi_res_audio/icons/hiresaudio.png",
+      "onSave": {"type": "controller", "endpoint": "music_service/hi_res_audio", "method": "saveAccountData"},
+      "saveButton": {
+        "label": "TRANSLATE.LOGIN",
+        "data": [
+          "username",
+          "password"
+        ]
+      },
+      "content": [
+        {
+          "id": "username",
+          "type":"text",
+          "element": "input",
+          "doc": "This is the username of your High Res Audio account",
+          "label": "TRANSLATE.HIRES_USERNAME",
+          "value": ""
+        },
+        {
+          "id": "password",
+          "type":"password",
+          "element": "input",
+          "doc": "This is the password of your High Res Audio account",
+          "label": "TRANSLATE.HIRES_PASSWORD",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "section_logout",
+      "element": "section",
+      "label": "High Res Audio",
+      "hidden": true,
+      "image": "music_service/hi_res_audio/icons/hiresaudio.png",
+      "content": [
+        {
+          "id": "logout",
+          "element": "button",
+          "label": "TRANSLATE.LOGOUT",
+          "description": "",
+          "onClick": {
+            "type": "emit",
+            "message": "callMethod",
+            "data": {
+              "endpoint": "music_service/hi_res_audio",
+              "method": "logout",
+              "data": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# .cdcdrc revision 3
+
+verbose=ON
+device=/dev/sr0

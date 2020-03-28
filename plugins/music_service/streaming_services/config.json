@@ -1,0 +1,14 @@
+{
+  "daemonUrl":{
+    "type": "string",
+    "value": "http://127.0.0.1:7777"
+  },
+  "username":{
+    "type": "string",
+    "value": ""
+  },
+  "password":{
+    "type": "string",
+    "value": ""
+  }
+}

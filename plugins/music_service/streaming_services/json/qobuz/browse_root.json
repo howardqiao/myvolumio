@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "type": "title",
+        "title": "TRANSLATE.QOBUZ_BROWSE.MY_MUSIC",
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.MY_ALBUMS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzalbum.png",
+            "uri": "qobuz://myalbums"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.MY_TRACKS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuztrack.png",
+            "uri": "qobuz://mytracks"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.MY_PLAYLISTS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzplaylist.png",
+            "uri": "qobuz://myplaylists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.MY_ARTISTS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzartist.png",
+            "uri": "qobuz://myartists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.MY_PURCHASES",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzpurchase.png",
+            "uri": "qobuz://mypurchases"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "title": "Discover",
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.QOBUZ_PLAYLISTS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzfeatured.png",
+            "uri": "qobuz://qobuz_playlists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.PRESS_AWARDS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzpressawards.png",
+            "uri": "qobuz://pressawards"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.SELECTED_BY_QOBUZ",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzselectedbyqobuz.png",
+            "uri": "qobuz://selectedbyqobuz"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.SELECTED_BY_THE_MEDIA",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzselectedbymedia.png",
+            "uri": "qobuz://selectedbythemedia"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.NEW_RELEASES",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuznewreleases.png",
+            "uri": "qobuz://newreleases"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "/"
+    }
+  }
+}

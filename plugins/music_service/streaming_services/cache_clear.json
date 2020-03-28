@@ -1,0 +1,23 @@
+[
+  "qobuz://myalbums",
+  "qobuz://mytracks",
+  "qobuz://myplaylists",
+  "qobuz://myartists",
+  "qobuz://mypurchases",
+  "qobuz://mypurchases/albums",
+  "qobuz://mypurchases/tracks",
+  "tidal://mymusic/albums/az",
+  "tidal://mymusic/albums/dateadded",
+  "tidal://mymusic/albums/artist",
+  "tidal://mymusic/albums/releasedate",
+  "tidal://mymusic/artists/az",
+  "tidal://mymusic/artists/dateadded",
+  "tidal://mymusic/playlists/az",
+  "tidal://mymusic/playlists/dateadded",
+  "tidal://mymusic/playlists/favourite",
+  "tidal://mymusic/playlists/createdbyme",
+  "tidal://mymusic/tracks/az",
+  "tidal://mymusic/tracks/dateadded",
+  "tidal://mymusic/tracks/artist",
+  "tidal://mymusic/tracks/releasedate"
+]

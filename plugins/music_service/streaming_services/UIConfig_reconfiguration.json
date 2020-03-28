@@ -1,0 +1,23 @@
+{
+  "page": {
+    "label": "TRANSLATE.COMMON.NEEDS_RECONFIGURATION_TITLE"
+  },
+  "sections": [
+    {
+      "id": "MESSAGE_SECTION",
+      "element": "section",
+      "label": "TRANSLATE.COMMON.NEEDS_RECONFIGURATION_LABEL",
+      "icon": "fa-user",
+      "description": "TRANSLATE.SPOTIFY.ACCOUNT_LOGIN_DESC",
+      "hidden":false,
+      "onSave": {
+        "type": "controller",
+        "endpoint": "music_service/streaming_services",
+        "method": "saveSPOTIFYAccount"
+      },
+      "content": [
+
+      ]
+    }
+  ]
+}

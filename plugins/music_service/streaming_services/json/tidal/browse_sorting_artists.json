@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.TIDAL.MENU_AZ",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalaz.png",
+            "uri": "tidal://mymusic/artists/az"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.TIDAL.MENU_DATEADDED",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaldate.png",
+            "uri": "tidal://mymusic/artists/dateadded"
+          }
+        ]
+      },
+
+
+      {
+        "type": "title",
+        "title": "TRANSLATE.TIDAL.MENU_AZ",
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": []
+      }
+    ],
+    "prev": {
+      "uri": "tidal://"
+    }
+  }
+}

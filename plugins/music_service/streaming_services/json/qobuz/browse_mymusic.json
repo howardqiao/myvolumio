@@ -1,0 +1,50 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": [
+          {
+            "type": "title",
+            "title": "prova"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Albums",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzalbum.png",
+            "uri": "qobuz://mymusic/myalbums"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Tracks",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuztrack.png",
+            "uri": "qobuz://mymusic/mytracks"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Playlists",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzplaylist.png",
+            "uri": "qobuz://mymusic/myplaylists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Artists",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzartist.png",
+            "uri": "qobuz://mymusic/myartists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "My Purchases",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzpurchase.png",
+            "uri": "qobuz://mymusic/mypurchases"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "qobuz://"
+    }
+  }
+}

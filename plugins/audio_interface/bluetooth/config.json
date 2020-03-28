@@ -1,0 +1,10 @@
+{
+  "onDemand": {
+    "type": "boolean",
+    "value": true
+  },
+  "bt_convenience": {
+    "value":false,
+    "type":"boolean"
+  }
+}

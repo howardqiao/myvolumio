@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "type": "title",
+        "title": "TRANSLATE.QOBUZ_BROWSE.QOBUZ_PLAYLISTS",
+        "availableListViews": [
+          "list", "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.FEATURED_LAST_CREATED",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzplaylist.png",
+            "uri": "qobuz://featured/last_created"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.QOBUZ_BROWSE.FEATURED_EDITOR_PICKS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzplaylist.png",
+            "uri": "qobuz://featured/editor_picks"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "qobuz://"
+    }
+  }
+}

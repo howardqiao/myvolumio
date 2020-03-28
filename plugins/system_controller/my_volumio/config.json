@@ -1,0 +1,26 @@
+{
+  "username":{
+    "type": "string",
+    "value":""
+  },
+  "password":{
+    "type":"string",
+    "value":""
+  },
+  "token":{
+    "type":"string",
+    "value":""
+  },
+  "tunnel_type":{
+    "type":"string",
+    "value":"1"
+  },
+  "environment":{
+    "type":"string",
+    "value":"production"
+  },
+  "overrideGeo": {
+    "type": "string",
+    "value": "none"
+  }
+}

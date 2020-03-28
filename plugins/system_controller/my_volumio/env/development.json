@@ -1,0 +1,13 @@
+{
+  "fbconf": {
+    "apiKey": "AIzaSyAcZzzO2ALWG7zigJ7SGZMwSpl5kIE0wzY",
+    "authDomain": "myvolumio-dev.firebaseapp.com",
+    "databaseURL": "https://myvolumio-dev.firebaseio.com",
+    "storageBucket": "myvolumio-dev",
+    "endpointDomain":"myvolumio-dev.appspot.com"
+  },
+  "presenceEndpoint":"http://presence.myvolumio.org:6969",
+  "presenceMqttTopic": "development/user_devices",
+  "mqttEndpoint": "mqtt://mqtt.volumio.org:80",
+  "endpointDomain":"https://functions-dev.volumio.cloud"
+}

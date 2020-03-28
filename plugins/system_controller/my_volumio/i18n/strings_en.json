@@ -1,0 +1,6 @@
+{
+    "COMMON": {
+        "MYVOLUMIO_DISABLED_LABEL": "Streaming Services",
+        "MYVOLUMIO_DISABLED_TEXT": "To Use Streaming services you must have MyVolumio Virtuoso or Superstar enabled on this device"
+    }
+}

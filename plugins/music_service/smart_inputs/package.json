@@ -1,0 +1,23 @@
+{
+  "name": "smart_inputs",
+  "version": "1.0.0",
+  "description": "inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Volumio Team",
+  "license": "ISC",
+  "volumio_info": {
+    "prettyName": "Digital and Analog Inputs",
+    "icon": "fa-lightbulb-o",
+    "plugin_type": "music_service",
+    "is_my_music_plugin": true
+  },
+  "dependencies": {
+    "fs-extra": "^0.28.0",
+    "kew": "^0.7.0",
+    "v-conf": "^1.4.0",
+    "require-from-string": "^2.0.2"
+  }
+}

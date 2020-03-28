@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cdde delay="5000000">
+    <drive path="/dev/sr0">
+        <audio command="cdcd info > /tmp/cd"/>
+        <data command="cdcd info > /tmp/cd"/>
+        <dvd command="cdcd info > /tmp/cd"/>
+        <vcd command="cdcd info > /tmp/cd"/>
+        <svcd command="cdcd info > /tmp/cd"/>
+        <blank command="cdcd info > /tmp/cd"/>
+        <mixed command="cdcd info > /tmp/cd"/>
+    </drive>
+</cdde>

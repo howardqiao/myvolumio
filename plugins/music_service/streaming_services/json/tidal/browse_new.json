@@ -1,0 +1,34 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid", "list"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "Playlists",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalplaylist.png",
+            "uri": "tidal://new/playlists"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Album",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidalalbum.png",
+            "uri": "tidal://new/albums"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Tracks",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://new/tracks"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "tidal://"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "page": {
+    "label": "TRANSLATE.COMMON.CONFIG_SECTION_TITLE"
+  },
+  "sections": [
+    {
+      "id": "SPOTIFY_SECTION",
+      "element": "section",
+      "label": "TRANSLATE.SPOTIFY.SECTION_ACCOUNT",
+      "image": "fa-user",
+      "description": "TRANSLATE.SPOTIFY.ACCOUNT_LOGIN_DESC",
+      "hidden":false,
+      "onSave": {
+        "type": "controller",
+        "endpoint": "music_service/streaming_services",
+        "method": "saveSPOTIFYAccount"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.COMMON.LOGIN",
+        "data": [
+          "spotify_username",
+          "spotify_password"
+        ]
+      },
+      "content": [
+        {
+          "id": "spotify_username",
+          "type": "text",
+          "element": "input",
+          "doc": "TRANSLATE.SPOTIFY.USERNAME_DOC",
+          "label": "TRANSLATE.COMMON.USERNAME",
+          "value": "",
+          "hidden":false
+        },
+        {
+          "id": "spotify_password",
+          "type": "password",
+          "element": "input",
+          "doc": "TRANSLATE.QOBUZ.PASSWORD_DOC",
+          "label": "TRANSLATE.COMMON.PASSWORD",
+          "value": "",
+          "hidden":false
+        }
+      ]
+    },
+    {
+      "id": "TIDAL_SECTION",
+      "element": "section",
+      "label": "TRANSLATE.TIDAL.SECTION_ACCOUNT",
+      "description": "TRANSLATE.TIDAL.ACCOUNT_LOGIN_DESC",
+      "hidden":false,
+      "image": "music_service/streaming_services/icons/tidal/tidalsectionimage.png",
+      "onSave": {"type":"controller", "endpoint":"music_service/streaming_services", "method":"saveTIDALAccount"},
+      "saveButton": {
+        "label": "TRANSLATE.COMMON.LOGIN",
+        "data": [
+          "tidal_username",
+          "tidal_password"
+        ]
+      },
+      "content": [
+        {
+          "id": "tidal_username",
+          "type":"text",
+          "element": "input",
+          "doc": "This is the username of your Tidal account",
+          "label": "TRANSLATE.COMMON.USERNAME",
+          "value": "",
+          "hidden":false
+        },
+        {
+          "id": "tidal_password",
+          "type":"password",
+          "element": "input",
+          "doc": "This is the password of your Tidal account",
+          "label": "TRANSLATE.COMMON.PASSWORD",
+          "value": "",
+          "hidden":false
+        }
+      ]
+    },
+    {
+      "id": "TIDAL_QUALITY_SECTION",
+      "element": "section",
+      "hidden":"true",
+      "onSave": {
+        "type": "controller",
+        "endpoint": "music_service/streaming_services",
+        "method": "saveTIDALConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.COMMON.SAVE",
+        "data": [
+          "quality","search_results"
+        ]
+      },
+      "content": [
+        {
+          "id": "quality",
+          "element": "select",
+          "doc": "TRANSLATE.COMMON.QUALITY_DESCR",
+          "label": "TRANSLATE.COMMON.QUALITY_TITLE",
+          "value":  {
+            "value":"HIGHEST_POSSIBLE",
+            "label": "TRANSLATE.COMMON.HIGHEST_POSSIBLE"
+          },
+          "options": [
+            {
+              "value":"LOW",
+              "label": "TRANSLATE.COMMON.LOW"
+            },{
+              "value":"HIGH",
+              "label": "TRANSLATE.COMMON.HIGH"
+            },{
+              "value":"LOSSLESS",
+              "label": "TRANSLATE.COMMON.LOSSLESS"
+            },{
+              "value":"HI_RES",
+              "label": "TRANSLATE.COMMON.HI_RES"
+            },{
+              "value":"HIGHEST_POSSIBLE",
+              "label": "TRANSLATE.COMMON.HIGHEST_POSSIBLE"
+            }
+          ]
+        },
+        {
+          "id": "search_results",
+          "element": "select",
+          "doc": "TRANSLATE.COMMON.SEARCH_RESULTS_DESCR",
+          "label": "TRANSLATE.COMMON.SEARCH_RESULTS_TITLE",
+          "value":  {
+            "value":10,
+            "label": "10"
+          },
+          "options": [
+            {
+              "value":5,
+              "label": "5"
+            },
+            {
+              "value":10,
+              "label": "10"
+            },{
+              "value":20,
+              "label": "20"
+            },{
+              "value":50,
+              "label": "50"
+            },{
+              "value":100,
+              "label": "100"
+            },{
+              "value":200,
+              "label": "200"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "id": "QOBUZ_SECTION",
+      "element": "section",
+      "label": "TRANSLATE.QOBUZ.SECTION_ACCOUNT",
+      "image": "music_service/streaming_services/icons/qobuz/qobuziconimage.png",
+      "hidden":false,
+      "onSave": {
+        "type": "controller",
+        "endpoint": "music_service/streaming_services",
+        "method": "saveQOBUZAccount"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.COMMON.LOGIN",
+        "data": [
+          "qobuz_username",
+          "qobuz_password"
+        ]
+      },
+      "content": [
+        {
+          "id":"free_trial",
+          "element": "button",
+          "label": "TRANSLATE.QOBUZ.FREE_TRIAL",
+          "description": "TRANSLATE.QOBUZ.FREE_TRIAL_DESCR",
+          "onClick": {"type":"openUrl", "url":"http://www.qobuz.com/store-router/pages/volumio"},
+          "hidden":true
+        },
+        {
+          "id": "qobuz_username",
+          "type": "text",
+          "element": "input",
+          "doc": "TRANSLATE.QOBUZ.USERNAME_DOC",
+          "label": "TRANSLATE.COMMON.USERNAME",
+          "value": "",
+          "hidden":false
+        },
+        {
+          "id": "qobuz_password",
+          "type": "password",
+          "element": "input",
+          "doc": "TRANSLATE.QOBUZ.PASSWORD_DOC",
+          "label": "TRANSLATE.COMMON.PASSWORD",
+          "value": "",
+          "hidden":false
+        }
+      ]
+    },
+    {
+      "id": "QOBUZ_QUALITY_SECTION",
+      "element": "section",
+      "hidden":"true",
+      "onSave": {
+        "type": "controller",
+        "endpoint": "music_service/streaming_services",
+        "method": "saveQOBUZConfig"
+      },
+      "saveButton": {
+        "label": "TRANSLATE.COMMON.SAVE",
+        "data": [
+          "quality","search_results"
+        ]
+      },
+      "content": [
+        {
+          "id": "quality",
+          "element": "select",
+          "doc": "TRANSLATE.COMMON.QUALITY_DESCR",
+          "label": "TRANSLATE.COMMON.QUALITY_TITLE",
+          "value":  {
+            "value":100,
+            "label": "TRANSLATE.COMMON.HIGHEST_POSSIBLE"
+          },
+          "options": [
+            {
+              "value":5,
+              "label": "MP3 320"
+            },{
+              "value":6,
+              "label": "TRANSLATE.QOBUZ.FLAC_LOSSLESS"
+            },{
+              "value":7,
+              "label": "TRANSLATE.QOBUZ.FLAC_HIRES_96"
+            },{
+              "value":27,
+              "label": "TRANSLATE.QOBUZ.FLAC_HIRES_192"
+            },{
+              "value":100,
+              "label": "TRANSLATE.COMMON.HIGHEST_POSSIBLE"
+            }
+          ]
+        },
+        {
+          "id": "search_results",
+          "element": "select",
+          "doc": "TRANSLATE.COMMON.SEARCH_RESULTS_DESCR",
+          "label": "TRANSLATE.COMMON.SEARCH_RESULTS_TITLE",
+          "value":  {
+            "value":10,
+            "label": "10"
+          },
+          "options": [
+            {
+              "value":5,
+              "label": "5"
+            },
+            {
+              "value":10,
+              "label": "10"
+            },{
+              "value":20,
+              "label": "20"
+            },{
+              "value":50,
+              "label": "50"
+            },{
+              "value":100,
+              "label": "100"
+            },{
+              "value":200,
+              "label": "200"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.COMMON.ALBUMS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzalbum.png",
+            "uri": "qobuz://mypurchases/albums"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "TRANSLATE.COMMON.TRACKS",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuztrack.png",
+            "uri": "qobuz://mypurchases/tracks"
+          }
+        ]
+      }
+    ],"prev": {
+      "uri": "qobuz://"
+    }
+  }
+}

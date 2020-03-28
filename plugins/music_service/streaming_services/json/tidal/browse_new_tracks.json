@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid", "list"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "New",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://new/tracks/new"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Recommended",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://new/tracks/recommended"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Top 20",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://new/tracks/top20"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Local (not applicable all regions)",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/tidal/tidaltrack.png",
+            "uri": "tidal://new/tracks/local"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "tidal://new"
+    }
+  }
+}

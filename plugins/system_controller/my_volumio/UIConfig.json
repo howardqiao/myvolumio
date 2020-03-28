@@ -1,0 +1,13 @@
+{
+  "sections": [
+    {
+      "id": "MESSAGE_SECTION",
+      "element": "section",
+      "label": "TRANSLATE.COMMON.MYVOLUMIO_DISABLED_LABEL",
+      "icon": "fa-user",
+      "description": "TRANSLATE.COMMON.MYVOLUMIO_DISABLED_TEXT",
+      "hidden": false,
+      "content": []
+    }
+  ]
+}

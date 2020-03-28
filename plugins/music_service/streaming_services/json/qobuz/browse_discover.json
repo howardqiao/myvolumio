@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid"
+        ],
+        "items": [
+          {
+            "type": "item-no-menu",
+            "title": "Best Sellers",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzbestsellers.png",
+            "uri": "qobuz://discover/bestsellers"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Most Streamed",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzmoststreamed.png",
+            "uri": "qobuz://discover/moststreamed"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Press Awards",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzpressawards.png",
+            "uri": "qobuz://discover/pressawards"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Selected by Qobuz",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzselectedbyqobuz.png",
+            "uri": "qobuz://discover/selectedbyqobuz"
+          },
+          {
+            "type": "item-no-menu",
+            "title": "Selected by the Media",
+            "albumart": "/albumart?sourceicon=music_service/streaming_services/icons/qobuz/qobuzselectedbymedia.png",
+            "uri": "qobuz://discover/selectedbythemedia"
+          }
+        ]
+      }
+    ],
+    "prev": {
+      "uri": "qobuz://"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "PLAY":"Play",
+  "RIP":"Rip To Hard Drive",
+  "EJECT":"Eject",
+  "CD_RIP":"CD Rip",
+  "CD_RIP_STARTED":"CD Rip Started, this may take up to 30 minutes. You will be notified on RIP termination",
+  "CD_RIP_CLOSE":"Close",
+  "CD_RIP_ERROR":"CD RIP Error",
+  "CD_RIP_ERROR_MESSAGE":"Cannot Start CD Rip ",
+  "CD_RIP_SUCCESS":"CD Has been ripped successfully",
+  "RIP_MESSAGE":"Review CD Informations and select the desired location for the music files. Once done, click Rip to start copying your CD in lossless format. You'll be notified once the process is finished",
+  "RIP_LOCATION_MESSAGE_NO_SPACE":"There is no space available for ripping, please connect a different drive to save music files",
+  "RIP_LOCATION_MESSAGE":"Music files destination disk",
+  "TARGET_HARD_DRIVE_NOT_FOUND":"Hard Drive Not Found",
+  "RIP_FAILED":"Copy process failed",
+  "RIP_IN_PROGRESS_MESSAGE":"This CD is currently being copied, and cannot be accessed until the copy operation has completed",
+  "UNKNOWN_ARTIST":"Unknown artist",
+  "UNKNOWN_ALBUM":"Unknown album",
+  "UNKNOWN_GENRE":"Unknown Genre"
+}

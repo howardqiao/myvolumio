@@ -1,0 +1,17 @@
+{
+  "navigation": {
+    "lists": [
+      {
+        "availableListViews": [
+          "grid","list"
+        ],
+        "items": [
+
+        ]
+      }
+    ],
+    "prev": {
+      "uri": ""
+    }
+  }
+}

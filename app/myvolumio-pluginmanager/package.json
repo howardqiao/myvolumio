@@ -1,0 +1,25 @@
+{
+  "name": "myvolumio_pluginmanager",
+  "version": "2.0.0",
+  "description": "Plugin Manager for MyVolumio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volumio/myvolumio-pluginmanager.git"
+  },
+  "keywords": [
+    "MyVolumio"
+  ],
+  "author": "Sergio Visinoni <piffio@piffio.org> (https://github.com/piffio/)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/volumio/myvolumio-pluginmanager/issues"
+  },
+  "homepage": "https://github.com/volumio/myvolumio-pluginmanager#readme",
+  "dependencies": {
+    "require-from-string": "^2.0.2"
+  }
+}
